@@ -9,7 +9,6 @@ int main() {
   int amtfor1elf = 0;
   int Intdata; 
   vector<int> totalCalories; 
-  int position = 0;
   
   ifstream calories("elves.txt");
   while (getline(calories, data)) {
