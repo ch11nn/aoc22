@@ -20,8 +20,5 @@ int main() {
     amtfor1elf += Intdata; 
   }
   }
-  //for (int i = 0; i <= totalCalories.size(); i++) {
-   // cout << totalCalories[i] << "\n";
-   // }
   cout << *max_element(totalCalories.begin(),totalCalories.end());
 }
